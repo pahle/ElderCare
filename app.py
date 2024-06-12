@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request, jsonify
 import json
 from tensorflow.keras.models import load_model
@@ -13,20 +14,14 @@ model = load_model('model.h5')
 disease = json.load(open('disease.json'))["data"]
 
 @app.route("/")
-def get_index():
-  return get_index_handler()
-
-@app.route("/predict", methods=["POST"])
-def post_predict():
-  return post_predict_handler()
-
 def get_index_handler():
   return jsonify({
         "status": "success",
         "code": 200,
         "message": "Successfully connected to the API",
     }), 200
-  
+
+@app.route("/predict", methods=["POST"])
 def post_predict_handler():
   request_data = request.json
   print(request_data)
@@ -53,6 +48,10 @@ def post_predict_handler():
       "probability": str(int(prediction[0][predicted_label_index] * 100)) + "%"
     }
   }), 200
+
+
+  
+
   
 if __name__ == "__main__":
   app.run(debug=True)
