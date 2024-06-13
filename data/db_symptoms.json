@@ -1,0 +1,926 @@
+[
+    {
+        "symptom": "itching",
+        "translated_symptom": "Gatal",
+        "description": "Sensasi tidak nyaman pada kulit yang menyebabkan keinginan untuk menggaruk.",
+        "image_url": "https://img-cdn.medkomtek.com/7Mi4y4GPrtpsChMGiDPWVBLojSo=/510x395/smart/filters:quality(100):format(webp)/article/5sIBTqRWtrRCu2ehzdH8c/original/pvwnpcpujskwtxl1z3fno23k592mot5x.jpg?w=256&q=100",
+        "category": "Kulit"
+    },
+    {
+        "symptom": "skin_rash",
+        "translated_symptom": "Ruam Kulit",
+        "description": "Perubahan warna dan tekstur kulit yang dapat berupa bercak merah, bintik-bintik, atau area kulit yang meradang.",
+        "image_url": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2022/03/Contact-dermatitis-of-the-arm-body19.jpg?w=1155&h=1528",
+        "category": "Kulit"
+    },
+    {
+        "symptom": "nodal_skin_eruptions",
+        "translated_symptom": "Benjolan Merah di Kulit",
+        "description": "Benjolan kecil berwarna merah yang muncul di permukaan kulit, sering kali disebabkan oleh infeksi atau reaksi alergi.",
+        "image_url": "https://superyou.co.id/blog/wp-content/webpc-passthru.php?src=https://superyou.co.id/blog/wp-content/uploads/2023/03/Bukan-Jerawat-Ketahui-Penyakit-Bisul-dan-Pengobatannya.jpg&nocache=1",
+        "category": "Kulit"
+    },
+    {
+        "symptom": "continuous_sneezing",
+        "translated_symptom": "Bersin Terus-Menerus",
+        "description": "Bersin yang terjadi secara berulang-ulang dan tidak berhenti dalam waktu singkat.",
+        "image_url": "https://asset-a.grid.id/crop/0x0:0x0/x/photo/2023/12/06/penyebab-bersin-terus-menerusj-20231206021907.jpg",
+        "category": "Lainnya"
+    },
+    {
+        "symptom": "shivering",
+        "translated_symptom": "Menggigil",
+        "description": "Getaran tubuh yang tidak terkendali, biasanya terjadi karena rasa dingin atau demam.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGy9WywVrg8UIpKAKWRO8dVetTF7O5J6n8mQ&s",
+        "category": "Umum"
+    },
+    {
+        "symptom": "chills",
+        "translated_symptom": "Meriang",
+        "description": "Rasa dingin yang menyertai demam, sering kali disertai dengan menggigil.",
+        "image_url": "https://res.cloudinary.com/dk0z4ums3/image/upload/v1679925967/attached_image/8-obat-meriang-yang-manjur.jpg",
+        "category": "Umum"
+    },
+    {
+        "symptom": "joint_pain",
+        "translated_symptom": "Nyeri sendi",
+        "description": "Rasa sakit atau tidak nyaman pada satu atau lebih sendi.",
+        "image_url": "https://asset-2.tstatic.net/aceh/foto/bank/images/ilustrasi-nyeri-sendi.jpg",
+        "category": "Tangan dan Kaki"
+    },
+    {
+        "symptom": "stomach_pain",
+        "translated_symptom": "Sakit perut",
+        "description": "Rasa sakit atau tidak nyaman yang dirasakan di area perut, bisa disebabkan oleh berbagai kondisi seperti gangguan pencernaan, infeksi, atau masalah lainnya.",
+        "image_url": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2022/06/15092858/X-Cara-Mengatasi-Sakit-Perut-yang-Ampuh-dan-Alami.jpg",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "acidity",
+        "translated_symptom": "Asam lambung",
+        "description": "Kondisi di mana asam lambung berlebih naik ke kerongkongan, menyebabkan sensasi terbakar di dada atau rasa tidak nyaman di perut.",
+        "image_url": "https://www.ekahospital.com/storage/gallery/1666236275-Asam-lambung-(1).jpg",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "ulcers_on_tongue",
+        "translated_symptom": "Sariawan",
+        "description": "Luka atau borok yang muncul di permukaan lidah, sering kali terasa sakit dan bisa disebabkan oleh infeksi, iritasi, atau kondisi medis lainnya.",
+        "image_url": "https://res.cloudinary.com/dk0z4ums3/image/upload/v1628401597/attached_image/cara-mengobati-sariawan-di-lidah.jpg",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "muscle_wasting",
+        "translated_symptom": "Penyusutan otot",
+        "description": "Kehilangan massa otot atau pengecilan otot yang dapat disebabkan oleh kurangnya aktivitas fisik, penyakit tertentu, atau kekurangan nutrisi.",
+        "image_url": "https://www.wowkeren.com/display/images/photo/2020/12/29/00345488s7.jpg",
+        "category": "Kepala dan Wajah"
+    },
+    {
+        "symptom": "vomiting",
+        "translated_symptom": "Muntah",
+        "description": "Pengeluaran paksa isi perut melalui mulut, biasanya disebabkan oleh mual, infeksi, keracunan, atau kondisi medis lainnya.",
+        "image_url": "https://res.cloudinary.com/dk0z4ums3/image/upload/v1690163169/attached_image/muntah-pada-anak.jpg",
+        "category": "Tangan dan Kaki"
+    },
+    {
+        "symptom": "burning_micturition",
+        "translated_symptom": "Rasa terbakar saat buang air kecil",
+        "description": "Sensasi panas atau terbakar yang dirasakan saat buang air kecil, sering kali disebabkan oleh infeksi saluran kemih atau iritasi.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKj3idOTF_ritVqKOozKxZadc9ES3f8J4tiQ&s",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "spotting_ urination",
+        "translated_symptom": "Bercak darah saat buang air kecil",
+        "description": "Terdapat darah dalam urin yang tampak sebagai bercak-bercak merah atau kecoklatan, bisa disebabkan oleh infeksi, batu ginjal, atau kondisi medis lainnya.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXrh2lm909kNBQTvGTFzxsF4hd6SdZu-VN4A&s",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "fatigue",
+        "translated_symptom": "Lelah",
+        "description": "Perasaan kelelahan atau kekurangan energi yang berlebihan, yang tidak hilang meskipun sudah beristirahat. Bisa disebabkan oleh kurang tidur, stres, atau kondisi medis tertentu.",
+        "image_url": "https://cdn.antaranews.com/cache/1200x800/2023/02/17/pexels-marcus-aurelius-4064174.jpg",
+        "category": "Umum"
+    },
+    {
+        "symptom": "weight_gain",
+        "translated_symptom": "Kenaikan berat badan",
+        "description": "Penambahan berat badan yang tidak diinginkan atau tidak normal, sering kali disebabkan oleh pola makan yang tidak sehat, kurangnya aktivitas fisik, atau kondisi medis tertentu.",
+        "image_url": "https://penarakyat.co.id/asset/foto_berita/1503569909_40DBC57E99134B3210F3A42724D54D7A.jpg",
+        "category": "Lainnya"
+    },
+    {
+        "symptom": "anxiety",
+        "translated_symptom": "Kecemasan",
+        "description": "Perasaan takut atau khawatir yang berlebihan, sering disertai dengan gejala fisik seperti jantung berdebar, keringat dingin, dan kesulitan tidur.",
+        "image_url": "https://s3-publishing-cmn-svc-prd.s3.ap-southeast-1.amazonaws.com/article/vd4U9yWtH9M6-Tq96kIoT/original/082108800_1554371568-8-Tips-Atasi-Kecemasan-dengan-Cara-Alami-By-Fizkes-Shutterstock.jpg",
+        "category": "Tangan dan Kaki"
+    },
+    {
+        "symptom": "cold_hands_and_feets",
+        "translated_symptom": "Tangan dan kaki dingin",
+        "description": "Kondisi di mana tangan dan kaki terasa dingin, bisa disebabkan oleh sirkulasi darah yang buruk atau kondisi medis tertentu.",
+        "image_url": "https://asset-2.tstatic.net/palembang/foto/bank/images/ilutrasi-tangan-dingin_20160302_135041.jpg",
+        "category": "Lainnya"
+    },
+    {
+        "symptom": "mood_swings",
+        "translated_symptom": "Perubahan suasana hati",
+        "description": "Perubahan emosi yang drastis dan tiba-tiba, dari merasa bahagia menjadi sedih atau marah tanpa alasan yang jelas.",
+        "image_url": "https://static.cdntap.com/tap-assets-prod/wp-content/uploads/sites/24/2020/11/penyebab-mood-swing-lead.jpg",
+        "category": "Umum"
+    },
+    {
+        "symptom": "weight_loss",
+        "translated_symptom": "Penurunan berat badan",
+        "description": "Penurunan berat badan yang signifikan dan tidak disengaja, bisa disebabkan oleh penyakit, stres, atau perubahan pola makan.",
+        "image_url": "https://asset.kompas.com/crops/h3FFATdx2s9wXoGzkKbrgFbrG8U=/0x0:1000x667/1200x800/data/photo/2018/08/06/284463615.jpg",
+        "category": "Umum"
+    },
+    {
+        "symptom": "restlessness",
+        "translated_symptom": "Gelisah",
+        "description": "Perasaan tidak tenang dan sulit untuk beristirahat atau duduk diam, sering kali disebabkan oleh kecemasan atau gangguan tidur.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQG8fvWYoVX6sjr4SG4-orgT71JRq3luYzlw&s",
+        "category": "Umum"
+    },
+    {
+        "symptom": "lethargy",
+        "translated_symptom": "Lesu",
+        "description": "Rasa lelah dan kurang energi yang berlebihan, biasanya disebabkan oleh kurang tidur, penyakit, atau kekurangan nutrisi.",
+        "image_url": "https://static.toiimg.com/thumb/msid-64747564,width-1280,height-720,resizemode-4/64747564.jpg",
+        "category": "Umum"
+    },
+    {
+        "symptom": "patches_in_throat",
+        "translated_symptom": "Bercak di tenggorokan",
+        "description": "Munculnya bercak-bercak putih atau merah di tenggorokan, bisa disebabkan oleh infeksi atau iritasi.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1kqKhe3jFqO4_I7LvWwmAy93wboXBYoCwaA&s",
+        "category": "Kepala dan Wajah"
+    },
+    {
+        "symptom": "irregular_sugar_level",
+        "translated_symptom": "Gula darah tidak teratur",
+        "description": "Fluktuasi kadar gula darah yang tidak stabil, sering dialami oleh penderita diabetes atau masalah metabolisme.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaLeDHD-8iiHHFDGs4b_HRT15ePakUwwgM-g&s",
+        "category": "Umum"
+    },
+    {
+        "symptom": "cough",
+        "translated_symptom": "Batuk",
+        "description": "Refleks tubuh untuk membersihkan saluran napas dari iritasi, bisa disebabkan oleh infeksi, alergi, atau kondisi medis lainnya.",
+        "image_url": "https://ciputrahospital.com/wp-content/uploads/2021/03/shutterstock_1728636130-resize.jpg",
+        "category": "Kepala dan Wajah"
+    },
+    {
+        "symptom": "high_fever",
+        "translated_symptom": "Demam tinggi",
+        "description": "Peningkatan suhu tubuh yang signifikan, sering kali sebagai respons terhadap infeksi atau peradangan.",
+        "image_url": "https://asset.kompas.com/crops/MPbBYPPk2ci5EL-bzVcV2ZlIVJU=/0x38:800x571/750x500/data/photo/2022/02/21/62128c70961c0.jpg",
+        "category": "Umum"
+    },
+    {
+        "symptom": "sunken_eyes",
+        "translated_symptom": "Mata cekung",
+        "description": "Mata tampak cekung dan dalam, sering kali tanda dehidrasi atau kelelahan.",
+        "image_url": "https://www.plasthetic.com/wp-content/uploads/2023/09/cara-menghilangkan-cekungan-di-bawah-mata.webp",
+        "category": "Kepala dan Wajah"
+    },
+    {
+        "symptom": "breathlessness",
+        "translated_symptom": "Sesak napas",
+        "description": "Kesulitan bernapas atau merasa kekurangan udara, bisa disebabkan oleh kondisi paru-paru, jantung, atau kecemasan.",
+        "image_url": "https://d1bpj0tv6vfxyp.cloudfront.net/articles/e2a673e0-7d63-46e2-90f5-ffd8ffc085b1_article_image_url.webp",
+        "category": "Pernapasan"
+    },
+    {
+        "symptom": "sweating",
+        "translated_symptom": "Berkeringat",
+        "description": "Produksi keringat yang berlebihan, bisa disebabkan oleh aktivitas fisik, suhu tinggi, atau kondisi medis tertentu.",
+        "image_url": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/06/22092606/Hati-Hati-8-Penyakit-Ini-Ditandai-dengan-Keringat-Dingin.jpg",
+        "category": "Umum"
+    },
+    {
+        "symptom": "dehydration",
+        "translated_symptom": "Dehidrasi",
+        "description": "Kekurangan cairan dalam tubuh yang dapat menyebabkan rasa haus, pusing, dan mulut kering.",
+        "image_url": "https://cdn0-production-images-kly.akamaized.net/1tacKMSVxPhi7ILcivBWL1AplJk=/0x18:626x371/800x450/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3291203/original/070584100_1604906104-sweating-woman-suffering-from-heat-thirst-cools-down-with-air-conditioning-refreshing-water-bottle-hot-summer-day_122732-3130.jpg",
+        "category": "Umum"
+    },
+    {
+        "symptom": "indigestion",
+        "translated_symptom": "Gangguan pencernaan",
+        "description": "Ketidaknyamanan atau rasa sakit di perut setelah makan, bisa disertai dengan mual, kembung, dan sendawa.",
+        "image_url": "https://asset.kompas.com/crops/AXwPEvllbcwnsmv47Ua0wk18EuI=/371x75:957x466/750x500/data/photo/2020/10/03/5f781792c7aab.jpg",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "headache",
+        "translated_symptom": "Sakit kepala",
+        "description": "Rasa sakit atau tekanan di kepala, bisa disebabkan oleh stres, kurang tidur, dehidrasi, atau kondisi medis lainnya.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiKL9xmFRocHeOBJvQh-nGE0P4qIEMcVCLKA&s",
+        "category": "Kepala dan Wajah"
+    },
+    {
+        "symptom": "yellowish_skin",
+        "translated_symptom": "Kulit menguning",
+        "description": "Warna kulit yang berubah menjadi kekuningan, sering kali disebabkan oleh masalah pada hati atau empedu.",
+        "image_url": "https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/2019/04/25/4277144634.jpg",
+        "category": "Kulit"
+    },
+    {
+        "symptom": "dark_urine",
+        "translated_symptom": "Urin gelap",
+        "description": "Warna urin yang lebih gelap dari biasanya, bisa menjadi tanda dehidrasi atau masalah pada hati.",
+        "image_url": "https://p16-va.lemon8cdn.com/tos-alisg-v-a3e477-sg/8421c3e569d14308a383d176c832a509~tplv-tej9nj120t-origin.webp",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "nausea",
+        "translated_symptom": "Mual",
+        "description": "Perasaan tidak nyaman di perut yang sering kali mendahului muntah, bisa disebabkan oleh infeksi, keracunan, atau kondisi medis lainnya.",
+        "image_url": "https://d1bpj0tv6vfxyp.cloudfront.net/8.-tibatiba-mual-ini-pengobatan-alami-yang-bisa-dilakukan-2.jpg",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "loss_of_appetite",
+        "translated_symptom": "Kehilangan nafsu makan",
+        "description": "Penurunan atau hilangnya keinginan untuk makan, bisa disebabkan oleh penyakit, stres, atau masalah pencernaan.",
+        "image_url": "https://cdn.idntimes.com/content-images/post/20210725/older-man-with-hand-on-head-near-white-plate-of-food-7794427535ccad6000b5c7471f9e1d96.jpg",
+        "category": "Umum"
+    },
+    {
+        "symptom": "pain_behind_the_eyes",
+        "translated_symptom": "Nyeri di belakang mata",
+        "description": "Rasa sakit atau tekanan di area belakang mata, bisa disebabkan oleh migrain, infeksi, atau sinusitis.",
+        "image_url": "https://dimarco.id/info/wqassets/akibat-sakit-di-belakang-mata.webp",
+        "category": "Kepala dan Wajah"
+    },
+    {
+        "symptom": "back_pain",
+        "translated_symptom": "Sakit punggung",
+        "description": "Rasa sakit atau ketidaknyamanan di punggung, bisa disebabkan oleh cedera, postur yang buruk, atau kondisi medis tertentu.",
+        "image_url": "https://dk4fkkwa4o9l0.cloudfront.net/production/uploads/article/image/1688/woman-suffering.jpg",
+        "category": "Leher dan Punggung"
+    },
+    {
+        "symptom": "constipation",
+        "translated_symptom": "Sembelit",
+        "description": "Kesulitan buang air besar atau jarang buang air besar, sering disebabkan oleh kurang serat dalam diet atau dehidrasi.",
+        "image_url": "https://akcdn.detik.net.id/visual/2022/03/09/ilustrasi-sembelit-1_169.jpeg?w=650",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "abdominal_pain",
+        "translated_symptom": "Nyeri perut",
+        "description": "Rasa sakit atau ketidaknyamanan di area perut, bisa disebabkan oleh gangguan pencernaan, infeksi, atau kondisi medis lainnya.",
+        "image_url": "https://media.kompas.tv/library/image/content_article/article_img/20211106130927.jpg",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "diarrhoea",
+        "translated_symptom": "Diare",
+        "description": "Buang air besar yang encer dan sering, bisa disebabkan oleh infeksi, intoleransi makanan, atau masalah pencernaan.",
+        "image_url": "https://d1bpj0tv6vfxyp.cloudfront.net/sebelum-terlambat-cegah-diare-kronis-dengan-x-cara-ini.png",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "mild_fever",
+        "translated_symptom": "Demam ringan",
+        "description": "Peningkatan suhu tubuh yang sedikit, sering kali sebagai respons terhadap infeksi atau peradangan ringan.",
+        "image_url": "https://images.bisnis.com/posts/2022/12/18/1609581/ilustrasi-demam.jpg",
+        "category": "Umum"
+    },
+    {
+        "symptom": "yellow_urine",
+        "translated_symptom": "Urin kuning",
+        "description": "Warna urin yang kuning cerah, bisa menjadi tanda dehidrasi atau konsumsi makanan tertentu.",
+        "image_url": "https://p16-va.lemon8cdn.com/tos-alisg-v-a3e477-sg/8421c3e569d14308a383d176c832a509~tplv-tej9nj120t-origin.webp",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "yellowing_of_eyes",
+        "translated_symptom": "Mata menguning",
+        "description": "Perubahan warna putih mata menjadi kuning, sering kali disebabkan oleh masalah pada hati atau empedu.",
+        "image_url": "https://res.cloudinary.com/dk0z4ums3/image/upload/v1622467233/attached_image/mata-kuning-mungkin-ini-sebabnya.jpg",
+        "category": "Kepala dan Wajah"
+    },
+    {
+        "symptom": "acute_liver_failure",
+        "translated_symptom": "Gagal hati akut",
+        "description": "Kondisi serius di mana hati kehilangan kemampuan untuk berfungsi dengan baik, sering kali akibat infeksi atau keracunan.",
+        "image_url": "https://o-cdn-cas.sirclocdn.com/parenting/images/D308C0FD-34A3-4651-AAF9-B223FDBFF.width-800.format-webp.webp",
+        "category": "Lainnya"
+    },
+    {
+        "symptom": "fluid_overload",
+        "translated_symptom": "Kelebihan cairan",
+        "description": "Penumpukan cairan di tubuh yang bisa menyebabkan pembengkakan, sering kali disebabkan oleh masalah jantung, ginjal, atau hati.",
+        "image_url": "https://o-cdn-cas.sirclocdn.com/parenting/images/Hypervolemia-Fluid-Overload-Defin.width-800.format-webp.webp",
+        "category": "Lainnya"
+    },
+    {
+        "symptom": "swelling_of_stomach",
+        "translated_symptom": "Pembengkakan perut",
+        "description": "Pembesaran atau pembengkakan di area perut, bisa disebabkan oleh penumpukan cairan, gas, atau penyakit tertentu.",
+        "image_url": "https://res.cloudinary.com/dk0z4ums3/image/upload/v1658728458/attached_image/kelebihan-cairan-pada-perut-akibat-asites-perlu-segera-ditangani.jpg",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "swelled_lymph_nodes",
+        "translated_symptom": "Pembengkakan kelenjar getah bening",
+        "description": "Pembesaran kelenjar getah bening yang bisa disebabkan oleh infeksi, peradangan, atau kondisi medis tertentu.",
+        "image_url": "https://cdns.klimg.com/merdeka.com/i/w/news/2021/10/12/1363305/540x270/limfadenopati-adalah-pembengkakan-kelenjar-getah-bening-kenali-gejalanya.jpg",
+        "category": "Umum"
+    },
+    {
+        "symptom": "malaise",
+        "translated_symptom": "Rasa tidak enak badan",
+        "description": "Sensasi umum tidak enak badan atau kelelahan tanpa alasan yang jelas.",
+        "image_url": "https://www.health.com/thmb/aBWd2blITo0IchOAPP4_aSM4DQ8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Malaise-cf425942127b4eabb0473de2ee4920fd.jpg",
+        "category": "Umum"
+    },
+    {
+        "symptom": "blurred_and_distorted_vision",
+        "translated_symptom": "Penglihatan kabur dan terdistorsi",
+        "description": "Penglihatan kabur atau terdistorsi, bisa merupakan tanda dari masalah pada mata atau gangguan neurologis.",
+        "image_url": "https://www.diabetes.co.uk/wp-content/uploads/2019/01/blurred-vision-walking.jpg",
+        "category": "Kepala dan Wajah"
+    },
+    {
+        "symptom": "phlegm",
+        "translated_symptom": "Dahak",
+        "description": "Dahak yang terkumpul di tenggorokan atau saluran pernapasan.",
+        "image_url": "https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/07/GettyImages-1225552419_header-1024x575.jpg?w=1155&h=1528",
+        "category": "Pernapasan"
+    },
+    {
+        "symptom": "throat_irritation",
+        "translated_symptom": "Iritasi tenggorokan",
+        "description": "Rasa tidak nyaman atau gatal di tenggorokan, seringkali disertai dengan perasaan ingin batuk.",
+        "image_url": "https://smb.ibsrv.net/imageresizer/image/blog_images/1200x1200/112378/373636/0542445001635799022.jpg",
+        "category": "Pernapasan"
+    },
+    {
+        "symptom": "redness_of_eyes",
+        "translated_symptom": "Kemerahan pada mata",
+        "description": "Mata yang merah, bisa disebabkan oleh iritasi, alergi, atau infeksi.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsREJRmwilcQ7OKP58e46zfBZewWPVJ6kjvQ&s",
+        "category": "Kepala dan Wajah"
+    },
+    {
+        "symptom": "sinus_pressure",
+        "translated_symptom": "Tekanan sinus",
+        "description": "Tekanan atau rasa tertekan di area sinus, seringkali disertai dengan hidung tersumbat atau sakit kepala.",
+        "image_url": "https://telehealth.keckmedicine.org/wp-content/uploads/2021/10/shutterstock_1273303825.jpg",
+        "category": "Pernapasan"
+    },
+    {
+        "symptom": "runny_nose",
+        "translated_symptom": "Hidung berair",
+        "description": "Hidung yang mengeluarkan lendir atau cairan, biasanya merupakan tanda dari infeksi saluran pernapasan atau alergi.",
+        "image_url": "https://www.drmayankshukla.com/wp-content/uploads/2021/05/running-make-nose-run.jpg",
+        "category": "Pernapasan"
+    },
+    {
+        "symptom": "congestion",
+        "translated_symptom": "Hidung tersumbat",
+        "description": "Hidung tersumbat atau terasa penuh, seringkali disertai dengan kesulitan bernapas.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg7zVdVYx-5b4ZIk9LN3ks4qPEAryOmBE6KQ&s",
+        "category": "Pernapasan"
+    },
+    {
+        "symptom": "chest_pain",
+        "translated_symptom": "Nyeri dada",
+        "description": "Nyeri di dada, bisa disebabkan oleh berbagai kondisi seperti serangan jantung, gangguan pada paru-paru, atau masalah pada otot atau tulang rusuk.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Ddpzysepgzn0dx1xhinPgwLjYFbIQ3RuHg&s",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "weakness_in_limbs",
+        "translated_symptom": "Kelemahan pada anggota tubuh",
+        "description": "Kelemahan atau penurunan kekuatan pada anggota tubuh, seringkali disebabkan oleh kelelahan otot, cedera, atau masalah neurologis.",
+        "image_url": "https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/06/GettyImages-1156434761_header-1024x575.jpg?w=1155&h=1528",
+        "category": "Tangan dan Kaki"
+    },
+    {
+        "symptom": "fast_heart_rate",
+        "translated_symptom": "Detak jantung cepat",
+        "description": "Denyut jantung yang cepat, bisa disebabkan oleh aktivitas fisik, stres, atau masalah jantung.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHsIyAUHbsW07jOaueDsp6LgMaFinoVbhTpA&s",
+        "category": "Umum"
+    },
+    {
+        "symptom": "pain_during_bowel_movements",
+        "translated_symptom": "Nyeri saat buang air besar",
+        "description": "Nyeri saat buang air besar, bisa merupakan gejala dari gangguan pencernaan seperti sembelit, wasir, atau infeksi saluran pencernaan.",
+        "image_url": "https://i.insider.com/633734cd94aa2f0018cfce0a?width=700",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "pain_in_anal_region",
+        "translated_symptom": "Nyeri di daerah anus",
+        "description": "Nyeri di sekitar daerah dubur dapat disebabkan oleh berbagai faktor termasuk wasir, fisura anus, atau infeksi saluran pencernaan.",
+        "image_url": "https://cdn.sanity.io/images/0b678gck/buoy-public-site/295e4fc2f311707712ca7132620fd3f98f41a6b0-1500x1500.jpg?w=768&q=70&auto=format&dpr=1",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "bloody_stool",
+        "translated_symptom": "Tinja berdarah",
+        "description": "Feses yang berdarah bisa merupakan tanda dari kondisi seperti wasir, fisura anus, divertikulitis, atau bahkan kondisi serius seperti kanker usus.",
+        "image_url": "https://www.drsamratjankar.com/wp-content/uploads/2024/01/Blood-in-Stool_-%E2%80%93-is-it-a-Severe-Problem_.jpg",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "irritation_in_anus",
+        "translated_symptom": "Iritasi pada anus",
+        "description": "Rasa tidak nyaman atau gatal di sekitar anus seringkali terjadi akibat wasir, infeksi, atau iritasi kulit.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYmwx7i5pIK9ZoZhKgls1RZX8LkK-PEeDWIQ&s",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "neck_pain",
+        "translated_symptom": "Sakit leher",
+        "description": "Nyeri pada leher dapat disebabkan oleh berbagai faktor termasuk ketegangan otot, cedera, atau masalah pada tulang belakang.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE14JN8M_IskXZOlgVyQiXhLegNGKVwtv6bA&s",
+        "category": "Leher dan Punggung"
+    },
+    {
+        "symptom": "dizziness",
+        "translated_symptom": "Pusing",
+        "description": "Sensasi pusing atau perasaan tidak stabil bisa disebabkan oleh berbagai kondisi seperti tekanan darah rendah, gangguan keseimbangan, atau masalah pada telinga dalam.",
+        "image_url": "https://cornerstonephysio.com/wp-content/uploads/2016/10/understanding-dizziness-e1595085004948.jpg",
+        "category": "Kepala dan Wajah"
+    },
+    {
+        "symptom": "cramps",
+        "translated_symptom": "Kram",
+        "description": "Kram atau kontraksi otot yang menyakitkan dapat terjadi sebagai respons terhadap dehidrasi, kelelahan otot, atau ketidakseimbangan elektrolit.",
+        "image_url": "https://bonejoint.s3.amazonaws.com/wp-content/uploads/2021/07/21171828/14308295_s_edited.jpeg",
+        "category": "Tangan dan Kaki"
+    },
+    {
+        "symptom": "bruising",
+        "translated_symptom": "Memar",
+        "description": "Memar pada kulit bisa terjadi akibat cedera atau dampak dari penggunaan obat-obatan tertentu, atau dalam beberapa kasus, kondisi medis tertentu yang mempengaruhi pembekuan darah.",
+        "image_url": "https://www.health.com/thmb/qZhv7pR4NsmUukvILTmKbTOsriA=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/bruise-GettyImages-1059076258-25904d34b90544e7bc58bd6d1ec4d47f.jpg",
+        "category": "Kulit"
+    },
+    {
+        "symptom": "obesity",
+        "translated_symptom": "Kegemukan",
+        "description": "Kondisi kelebihan berat badan dapat meningkatkan risiko terkena berbagai penyakit seperti diabetes, penyakit jantung, dan tekanan darah tinggi.",
+        "image_url": "https://miro.medium.com/v2/resize:fit:976/1*D_VNoTwMkSrslw0ajdpnVA.jpeg",
+        "category": "Umum"
+    },
+    {
+        "symptom": "swollen_legs",
+        "translated_symptom": "Kaki bengkak",
+        "description": "Pembengkakan pada kaki bisa disebabkan oleh masalah seperti retensi cairan, masalah peredaran darah, atau kondisi medis yang mempengaruhi pembuluh darah.",
+        "image_url": "https://domf5oio6qrcr.cloudfront.net/medialibrary/4990/h0218b16207256670893.jpg",
+        "category": "Tangan dan Kaki"
+    },
+    {
+        "symptom": "swollen_blood_vessels",
+        "translated_symptom": "Pembuluh darah bengkak",
+        "description": "Pembengkakan pada pembuluh darah bisa terjadi sebagai respons terhadap infeksi, peradangan, atau kondisi medis lainnya yang mempengaruhi sistem peredaran darah.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLRkzWxylBruM8dvdmPSPgUV11_3M3o6DQBQ&s",
+        "category": "Tangan dan Kaki"
+    },
+    {
+        "symptom": "puffy_face_and_eyes",
+        "translated_symptom": "Wajah dan mata bengkak",
+        "description": "Wajah dan mata yang bengkak, seringkali merupakan tanda dari retensi cairan atau masalah kesehatan seperti alergi atau penyakit ginjal.",
+        "image_url": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/Read-More-conversion-images/facial-swelling/Angioedema2010-1296x728-Header.jpg?w=1155&h=1528",
+        "category": "Kepala dan Wajah"
+    },
+    {
+        "symptom": "enlarged_thyroid",
+        "translated_symptom": "Pembesaran tiroid",
+        "description": "Pembesaran kelenjar tiroid di leher, bisa merupakan gejala dari gangguan tiroid seperti gondok atau tiroiditis.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ_PBIPFI_jibpzHxV8Oh2KkLh2gco3PDFxA&s",
+        "category": "Leher dan Punggung"
+    },
+    {
+        "symptom": "brittle_nails",
+        "translated_symptom": "Kuku rapuh",
+        "description": "Kuku yang rapuh atau mudah patah, seringkali disebabkan oleh kekurangan nutrisi, kekeringan, atau gangguan kesehatan seperti hipotiroidisme.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0AU_Y2DHryEk8-tUfwFH-BP5upSxST1-rUA&s",
+        "category": "Kulit"
+    },
+    {
+        "symptom": "swollen_extremeties",
+        "translated_symptom": "Pembengkakan ekstremitas",
+        "description": "Pembengkakan pada bagian tubuh seperti tangan atau kaki, bisa disebabkan oleh retensi cairan, cedera, atau masalah kesehatan seperti penyakit jantung atau ginjal.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsLGTjMlULHmFyr6YOLcSMX9d8Wplw1lBm0g&s",
+        "category": "Tangan dan Kaki"
+    },
+    {
+        "symptom": "excessive_hunger",
+        "translated_symptom": "Rasa lapar berlebihan",
+        "description": "Masih tetap lapar setelah makan? Rasa lapar yang berlebihan atau sulit dikontrol, bisa merupakan gejala dari masalah pada metabolisme seperti diabetes atau gangguan hormon.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGXPd4e5N7u9CApwqtBBklnflxBQBlPeyOQg&s",
+        "category": "Umum"
+    },
+    {
+        "symptom": "extra_marital_contacts",
+        "translated_symptom": "Hubungan di luar nikah",
+        "description": "Hubungan seksual di luar pernikahan",
+        "image_url": "https://doktersehat.com/wp-content/uploads/2018/10/gambar-dampak-seks-bebas-doktersehat.jpg",
+        "category": "Lainnya"
+    },
+    {
+        "symptom": "drying_and_tingling_lips",
+        "translated_symptom": "Bibir kering dan kesemutan",
+        "description": "Bibir yang kering dan terasa kesemutan",
+        "image_url": "https://images.everydayhealth.com/images/wellness/home-remedies-for-chapped-lips-722x406.jpg?sfvrsn=8f8cd2a2_3",
+        "category": "Kepala dan Wajah"
+    },
+    {
+        "symptom": "slurred_speech",
+        "translated_symptom": "Bicara cadel",
+        "description": "Pertuturan yang terganggu atau sulit dimengerti, khususnya pada pengucapan huruf tertentu",
+        "image_url": "https://static.wixstatic.com/media/678762_526bb47910534f36ba277abac519e195~mv2.jpg/v1/fill/w_980,h_653,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/678762_526bb47910534f36ba277abac519e195~mv2.jpg",
+        "category": "Kepala dan Wajah"
+    },
+    {
+        "symptom": "knee_pain",
+        "translated_symptom": "Nyeri lutut",
+        "description": "Nyeri pada lutut, bisa disebabkan oleh berbagai kondisi termasuk cedera, osteoarthritis, atau peradangan.",
+        "image_url": "https://www.mayoclinichealthsystem.org/-/media/national-files/images/hometown-health/2020/hands-holding-knee-pain.jpg?sc_lang=en&la=en&h=370&w=660&hash=C432714627130AF50A2D7F22648A735B",
+        "category": "Tangan dan Kaki"
+    },
+    {
+        "symptom": "hip_joint_pain",
+        "translated_symptom": "Nyeri sendi panggul",
+        "description": "Nyeri pada sendi panggul, bisa disebabkan oleh osteoarthritis, cedera, atau masalah lain pada sendi.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKnjQHXjSKwDNpq89vd0oWgm2P_3VTzOzk3A&s",
+        "category": "Leher dan Punggung"
+    },
+    {
+        "symptom": "muscle_weakness",
+        "translated_symptom": "Kelemahan otot",
+        "description": "Kelemahan otot, dapat mempengaruhi satu atau beberapa kelompok otot dan disebabkan oleh berbagai kondisi seperti kelelahan, kurangnya aktivitas fisik, atau masalah neurologis.",
+        "image_url": "https://www.asbestos.com/wp-content/uploads/Muscle-weakness.jpg",
+        "category": "Tangan dan Kaki"
+    },
+    {
+        "symptom": "stiff_neck",
+        "translated_symptom": "Leher kaku",
+        "description": "Kekakuan atau kaku pada leher, seringkali disebabkan oleh ketegangan otot atau peradangan pada struktur leher.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx2vzseXoqhOMuPmvWPsw2ukRTBM4hdgRJ5Q&s",
+        "category": "Leher dan Punggung"
+    },
+    {
+        "symptom": "swelling_joints",
+        "translated_symptom": "Sendi bengkak",
+        "description": "Pembengkakan pada sendi, bisa disebabkan oleh cedera, arthritis, atau kondisi medis lainnya yang mempengaruhi sendi.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpIni4OkcRaIbnxyC9PE-f8FBUS3hi4Jm33g&s",
+        "category": "Tangan dan Kaki"
+    },
+    {
+        "symptom": "movement_stiffness",
+        "translated_symptom": "Kekakuan gerakan",
+        "description": "Kekakuan gerakan tubuh, bisa disebabkan oleh berbagai kondisi termasuk arthritis, cedera, atau masalah neurologis.",
+        "image_url": "https://ysm-res.cloudinary.com/image/upload/ar_1:1,c_fill,dpr_3.0,f_auto,g_faces:auto,q_auto:eco,w_500/v1/yms/prod/ac2a4186-cb8e-4c05-b11f-717b7a233fff",
+        "category": "Tangan dan Kaki"
+    },
+    {
+        "symptom": "spinning_movements",
+        "translated_symptom": "Vertigo",
+        "description": "Sensasi berputar atau bergerak secara berputar, seringkali merupakan gejala dari penyakit vestibular atau gangguan keseimbangan.",
+        "image_url": "https://www.entsaustin.com/wp-content/uploads/vertigo.jpg",
+        "category": "Kepala dan Wajah"
+    },
+    {
+        "symptom": "loss_of_balance",
+        "translated_symptom": "Kehilangan keseimbangan",
+        "description": "Hilangnya kemampuan untuk menjaga keseimbangan tubuh dengan baik, bisa disebabkan oleh masalah pada telinga dalam, otot, atau sistem saraf.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTANRK9zYSYfPfbTXYY7eT25XQj0DRn0SVoMg&s",
+        "category": "Umum"
+    },
+    {
+        "symptom": "unsteadiness",
+        "translated_symptom": "Ketidakstabilan",
+        "description": "Ketidakstabilan dalam berdiri atau berjalan, seringkali disertai dengan rasa lemah atau keseimbangan yang terganggu.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE_Hh3tKCiqe9OwjklZIwN4P4hD_nmqWi3xw&s",
+        "category": "Tangan dan Kaki"
+    },
+    {
+        "symptom": "weakness_of_one_body_side",
+        "translated_symptom": "Kelemahan pada satu sisi tubuh",
+        "description": "Kelemahan pada satu sisi tubuh, bisa merupakan gejala dari stroke atau cedera pada otak atau sumsum tulang belakang.",
+        "image_url": "https://www.verywellhealth.com/thmb/EYx5wIJrKuDPX7V98hQ1jQjQnVY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-12982631781-badf2b6564554b73b8d10dc0d2b115ff.jpg",
+        "category": "Tangan dan Kaki"
+    },
+    {
+        "symptom": "loss_of_smell",
+        "translated_symptom": "Kehilangan penciuman",
+        "description": "Hilangnya kemampuan untuk mencium bau, bisa disebabkan oleh infeksi sinus, alergi, atau kondisi medis lainnya.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrnwR2V1JVbGBsdCmKj3VwTzZLBXSxRrgd-Q&s",
+        "category": "Kepala dan Wajah"
+    },
+    {
+        "symptom": "bladder_discomfort",
+        "translated_symptom": "Ketidaknyamanan kandung kemih",
+        "description": "Ketidaknyamanan pada kandung kemih, bisa disebabkan oleh infeksi saluran kemih, kandung kemih overaktif, atau masalah lain pada sistem kemih.",
+        "image_url": "https://images.everydayhealth.com/images/womens-health/causes-of-bladder-pain-know-the-signs-alt-1440x810.jpg",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "foul_smell_of_urine",
+        "translated_symptom": "Bau urin yang tidak sedap",
+        "description": "Bau tidak sedap pada urine, seringkali merupakan tanda dari infeksi saluran kemih atau konsumsi makanan tertentu.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhd4vXmhSaboT7o16EsW6QX0gxxKbX1WYbDw&s",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "continuous_feel_of_urine",
+        "translated_symptom": "Rasa ingin buang air kecil terus-menerus",
+        "description": "Sensasi terus-menerus ingin buang air kecil meskipun telah mengosongkan kandung kemih, bisa disebabkan oleh infeksi saluran kemih atau gangguan kandung kemih.",
+        "image_url": "https://images.ctfassets.net/pxcfulgsd9e2/articleImage32788/a37fa2057aa2929e1593de42c38704e6/Dangers-of-Holding-Urine-HN234-iStock-1316757471-Cover-Sized.jpg?f=top&fit=fill&fl=progressive&fm=jpg&h=786&q=85&w=1396",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "passage_of_gases",
+        "translated_symptom": "Buang gas",
+        "description": "Pelepasan gas dari saluran pencernaan, merupakan proses normal dalam pencernaan tetapi bisa menjadi gejala jika terjadi secara berlebihan atau disertai dengan gejala lainnya seperti kembung atau nyeri.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYghIB4IzNKicvHCNnMqrO8ten47ElpM1coQ&s",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "internal_itching",
+        "translated_symptom": "Gatal di dalam tubuh",
+        "description": "Gatal-gatal di dalam tubuh, bisa disebabkan oleh berbagai kondisi seperti alergi, infeksi, atau masalah kulit.",
+        "image_url": "https://www.drbatras.com/sites/default/files/styles/blog/public/2021-12/shutterstock_315232619.webp?itok=8FygV7hL",
+        "category": "Lainnya"
+    },
+    {
+        "symptom": "toxic_look_(typhos)",
+        "translated_symptom": "Penampilan toksik (tifus)",
+        "description": "Penampilan fisik yang terlihat sakit atau tidak sehat, seringkali terkait dengan penyakit infeksi seperti demam tifoid.",
+        "image_url": "https://cdn.britannica.com/41/182641-050-69626E54/woman-face-typhus-rash-neck-Egypt-hospital-1943.jpg",
+        "category": "Umum"
+    },
+    {
+        "symptom": "depression",
+        "translated_symptom": "Depresi",
+        "description": "Gangguan suasana hati yang serius, ditandai dengan perasaan sedih yang berkepanjangan, kehilangan minat atau kesenangan, dan gangguan tidur atau nafsu makan.",
+        "image_url": "https://www.lotusmedicalcentre.com.au/wp-content/uploads/2023/09/Depositphotos_97113336_S.jpg",
+        "category": "Umum"
+    },
+    {
+        "symptom": "irritability",
+        "translated_symptom": "Mudah marah",
+        "description": "Mudah tersinggung atau cepat marah, bisa menjadi gejala stres, gangguan mental, atau kondisi medis tertentu.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWRcra8R-tUt5TJc4_aw1bNj333ibHtMTt1A&s",
+        "category": "Lainnya"
+    },
+    {
+        "symptom": "muscle_pain",
+        "translated_symptom": "Nyeri otot",
+        "description": "Nyeri pada otot, seringkali disebabkan oleh kelelahan otot, cedera, atau infeksi.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSghHcjYIilpAeYtoY8EJS1ihV8sDubA3pcQQ&s",
+        "category": "Tangan dan Kaki"
+    },
+    {
+        "symptom": "altered_sensorium",
+        "translated_symptom": "Perubahan kesadaran",
+        "description": "Perubahan kesadaran atau penurunan kemampuan untuk memproses informasi dengan benar, bisa menjadi tanda dari cedera otak, infeksi, atau gangguan neurologis lainnya.",
+        "image_url": "https://i2-prod.mirror.co.uk/incoming/article21195009.ece/ALTERNATES/n615/4_Unhappy-girl-in-a-bedroomed.jpg",
+        "category": "Lainnya"
+    },
+    {
+        "symptom": "red_spots_over_body",
+        "translated_symptom": "Bintik merah di seluruh tubuh",
+        "description": "Bercak merah pada tubuh, bisa merupakan gejala dari reaksi alergi, infeksi kulit, atau kondisi serius seperti penyakit menular.",
+        "image_url": "https://static.tuasaude.com/media/article/pi/rg/health-problems-that-can-cause-skin-rash_36706_l.jpg",
+        "category": "Kulit"
+    },
+    {
+        "symptom": "belly_pain",
+        "translated_symptom": "Sakit Perut",
+        "description": "Rasa sakit atau ketidaknyamanan di perut, bisa disebabkan oleh berbagai kondisi seperti gangguan pencernaan, infeksi, atau masalah pada organ dalam perut.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwGTV9V81gdAl3aCnd2mLA5mV3OvlWLDPUdg&s",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "abnormal_menstruation",
+        "translated_symptom": "Menstruasi tidak normal",
+        "description": "Perubahan dalam pola menstruasi seperti periode yang lebih berat atau lebih ringan dari biasanya, atau perdarahan di antara periode menstruasi.",
+        "image_url": "https://images.onlymyhealth.com/imported/images/2022/November/02_Nov_2022/main-menstrualirregularities.jpg",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "dischromic_patches",
+        "translated_symptom": "Bercak tidak berwarna",
+        "description": "Flek atau bercak pada kulit yang berbeda warna dari warna kulit normal, bisa disebabkan oleh kondisi seperti vitiligo atau hiperpigmentasi.",
+        "image_url": "https://www.researchgate.net/profile/Valentina-Broshtilova/publication/341592200/figure/fig2/AS:894272417038336@1590222567648/b-Dyschromic-macules-on-lateral-aspect-of-the-neck_Q320.jpg",
+        "category": "Kulit"
+    },
+    {
+        "symptom": "watering_from_eyes",
+        "translated_symptom": "Mata berair",
+        "description": "Mata yang mengeluarkan air mata secara berlebihan, bisa disebabkan oleh alergi, infeksi, atau masalah pada saluran air mata.",
+        "image_url": "https://images.everydayhealth.com/images/vision/cs-eye-health-watery-eyes-722x406.jpg",
+        "category": "Kepala dan Wajah"
+    },
+    {
+        "symptom": "increased_appetite",
+        "translated_symptom": "Nafsu makan meningkat",
+        "description": "Nafsu makan yang meningkat secara signifikan, bisa merupakan gejala dari berbagai kondisi termasuk gangguan hormonal atau emosional.",
+        "image_url": "https://www.diabetes.co.uk/wp-content/uploads/2019/01/close-up-eating-fridge.jpg",
+        "category": "Umum"
+    },
+    {
+        "symptom": "polyuria",
+        "translated_symptom": "Buang air kecil berlebihan",
+        "description": "Buang air kecil yang berlebihan dalam jumlah dan frekuensi yang abnormal, seringkali merupakan gejala diabetes atau masalah ginjal.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1aPU85wmyx8WcYMq-drnSbXQBDimAUalUyg&s",
+        "category": "Per"
+    },
+    {
+        "symptom": "family_history",
+        "translated_symptom": "Riwayat keluarga",
+        "description": "Riwayat keluarga terhadap suatu penyakit tertentu, bisa menjadi petunjuk risiko genetik untuk mengembangkan kondisi tersebut.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt-JUVQIBFCb50p1_xFQ0OfCuqgxHP1MSOn62fXaqV9uXuD-um5K4KPZGlKcT7_QnL4Jg&usqp=CAU",
+        "category": "Lainnya"
+    },
+    {
+        "symptom": "mucoid_sputum",
+        "translated_symptom": "Dahak kental",
+        "description": "Dahak yang kental dan berwarna keabu-abuan, bisa merupakan gejala dari infeksi saluran pernapasan atau kondisi lainnya.",
+        "image_url": "https://www.verywellhealth.com/thmb/sFs8qF2nCWa6pGiSMXO7Zti9OIg=/400x250/filters:no_upscale():max_bytes(150000):strip_icc()/Sputum-1--56a5c5445f9b58b7d0de6a35.JPG",
+        "category": "Pernapasan"
+    },
+    {
+        "symptom": "rusty_sputum",
+        "translated_symptom": "Dahak berkarat",
+        "description": "Dahak berwarna kecoklatan atau merah kecoklatan, bisa menjadi tanda infeksi paru-paru atau pneumonia.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn6eFRxscSKFzs9mQUPHI8SeXGZxi5HNFZ9g&s",
+        "category": "Pernapasan"
+    },
+    {
+        "symptom": "lack_of_concentration",
+        "translated_symptom": "Kurang konsentrasi",
+        "description": "Kesulitan untuk fokus atau berkonsentrasi, bisa disebabkan oleh stres, kelelahan, atau gangguan mental seperti ADHD.",
+        "image_url": "https://www.mentalup.co/img/blog/trouble-concentrating.jpg",
+        "category": "Lainnya"
+    },
+    {
+        "symptom": "visual_disturbances",
+        "translated_symptom": "Gangguan penglihatan",
+        "description": "Gangguan penglihatan seperti penglihatan kabur, bintik-bintik hitam, atau kilatan cahaya yang tidak normal.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-fdn0yhMq1uKAn7rnH-5zGAiDQH8267fxA&s",
+        "category": "Kepala dan Wajah"
+    },
+    {
+        "symptom": "receiving_blood_transfusion",
+        "translated_symptom": "Menerima transfusi darah",
+        "description": "Menerima transfusi darah sebagai bagian dari perawatan medis, biasanya dilakukan untuk menggantikan kehilangan darah atau mengatasi kondisi medis tertentu.",
+        "image_url": "https://cdn-prod.medicalnewstoday.com/content/images/articles/327/327513/close-up-of-an-arm-having-a-blood-transfusion.jpg",
+        "category": "Lainnya"
+    },
+    {
+        "symptom": "receiving_unsterile_injections",
+        "translated_symptom": "Menerima suntikan tidak steril",
+        "description": "Menerima suntikan yang tidak steril, meningkatkan risiko infeksi dan penularan penyakit.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIIthJW0LdSOiWQrz_-UA0GXCu1no_5XiAcg&s",
+        "category": "Lainnya"
+    },
+    {
+        "symptom": "coma",
+        "translated_symptom": "Koma",
+        "description": "Kehilangan kesadaran yang mendalam dan tidak responsif terhadap rangsangan eksternal, bisa disebabkan oleh cedera otak, penyakit serius, atau overdosis obat.",
+        "image_url": "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2022/03/know_-coma_GettyImagessb10069454m-001_Header-1024x575.jpg",
+        "category": "Lainnya"
+    },
+    {
+        "symptom": "stomach_bleeding",
+        "translated_symptom": "Pendarahan lambung",
+        "description": "Perdarahan dari lambung atau bagian lain dari saluran pencernaan, bisa disebabkan oleh luka, tukak lambung, atau kondisi medis lainnya.",
+        "image_url": "https://assets.yourpractice.online/2575/3d-images/upper-gastric-bbeeding.jpg",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "distention_of_abdomen",
+        "translated_symptom": "Pembengkakan perut",
+        "description": "Pembengkakan atau perut yang membesar, seringkali disebabkan oleh gas, cairan, atau gangguan pada organ dalam perut.",
+        "image_url": "https://www.belmarrahealth.com/wp-content/uploads/2017/11/what-causes-abdominal-swelling.jpg",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "history_of_alcohol_consumption",
+        "translated_symptom": "Riwayat konsumsi alkohol",
+        "description": "Riwayat konsumsi alkohol yang dapat memengaruhi kesehatan, bisa menjadi faktor risiko untuk berbagai masalah kesehatan seperti penyakit hati dan gangguan mental.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsv_d6cA7xVJNHaLKQlHjKEdGtUeE2Ht0vxQ&s",
+        "category": "Lainnya"
+    },
+    {
+        "symptom": "fluid_overload",
+        "translated_symptom": "Kelebihan cairan",
+        "description": "Akumulasi cairan yang berlebihan dalam tubuh, bisa menjadi tanda dari gagal jantung atau masalah ginjal.",
+        "image_url": "https://asset.kompas.com/crops/epYC9Uwo2yGhVBgAnCVJsYHhvK4=/88x45:888x578/750x500/data/photo/2022/12/29/63ad2cb7f3df3.jpg",
+        "category": "Lainnya"
+    },
+    {
+        "symptom": "blood_in_sputum",
+        "translated_symptom": "Bercak darah di dahak",
+        "description": "Darah yang muncul dalam dahak, bisa merupakan tanda dari infeksi saluran pernapasan, luka pada paru-paru, atau kondisi serius lainnya.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5V7BkOVlKriNgnAR_sZdBP-aC871NcY99SQ&s",
+        "category": "Pernapasan"
+    },
+    {
+        "symptom": "prominent_veins_on_calf",
+        "translated_symptom": "Pembuluh darah menonjol di betis",
+        "description": "Pembuluh darah vena yang menonjol di betis, bisa menjadi tanda dari masalah sirkulasi darah atau tekanan darah rendah.",
+        "image_url": "https://gilvydisvein.com/wp-content/uploads/2023/06/shutterstock_1710525937.jpg",
+        "category": "Umum"
+    },
+    {
+        "symptom": "palpitations",
+        "translated_symptom": "Jantung berdebar-debar",
+        "description": "Sensasi detak jantung yang tidak teratur atau berdebar-debar, seringkali terasa keras atau cepat.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUk3GmwUJW1mDRwOI_7KfbbZddR3eeEYo-xg&s",
+        "category": "Perut dan Dada"
+    },
+    {
+        "symptom": "painful_walking",
+        "translated_symptom": "Nyeri saat berjalan",
+        "description": "Rasa sakit yang muncul saat berjalan, bisa disebabkan oleh berbagai kondisi seperti cedera, masalah pada sendi, atau masalah pada kaki.",
+        "image_url": "https://domf5oio6qrcr.cloudfront.net/medialibrary/2275/walking-pain-legs-hurt.jpg",
+        "category": "Tangan dan Kaki"
+    },
+    {
+        "symptom": "pus_filled_pimples",
+        "translated_symptom": "Jerawat bernanah",
+        "description": "Jerawat yang berisi nanah atau cairan putih, bisa merupakan tanda dari infeksi bakteri pada kulit.",
+        "image_url": "https://slmdskincare.com/cdn/shop/articles/What_Exactly_Is_a_Pimple_Anyway_SLMD_f.jpg?v=1665164954",
+        "category": "Kulit"
+    },
+    {
+        "symptom": "blackheads",
+        "translated_symptom": "Komedo",
+        "description": "Komedo yang terbentuk ketika pori-pori tersumbat oleh sebum dan sel kulit mati, terlihat berwarna hitam di permukaan kulit.",
+        "image_url": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/BeautyandSkinCare/793-Blackheads-1296x728-body.jpg?w=1155&h=1528",
+        "category": "Kepala dan Wajah"
+    },
+    {
+        "symptom": "scurring",
+        "translated_symptom": "Bersisik",
+        "description": "Kulit yang mengelupas atau bersisik",
+        "image_url": "https://media.istockphoto.com/id/179598340/photo/acne-scars.jpg?s=612x612&w=0&k=20&c=IwIJRQVGFtcgnOqxnvzKfEF9DYO-ztLX0bq90R-L6CA=",
+        "category": "Kulit"
+    },
+    {
+        "symptom": "skin_peeling",
+        "translated_symptom": "Kulit mengelupas",
+        "description": "Kulit yang mengelupas atau terkelupas, seringkali disebabkan oleh kulit yang kering atau terbakar sinar matahari.",
+        "image_url": "https://www.verywellhealth.com/thmb/s_TIC9zpt6mofGILjlITZ_P3S2w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1302019384-2c90315145794528b0abd974e94d2ce1.jpg",
+        "category": "Kulit"
+    },
+    {
+        "symptom": "silver_like_dusting",
+        "translated_symptom": "Kulit bersisik",
+        "description": "Timbunan serbuk berwarna perak di kulit, bisa terjadi pada kondisi seperti psoriasis atau eksim.",
+        "image_url": "https://res.cloudinary.com/dk0z4ums3/image/upload/v1684828078/attached_image/kulit-kering-bersisik-inilah-penyebab-dan-cara-mencegahnya.jpg",
+        "category": "Kulit"
+    },
+    {
+        "symptom": "small_dents_in_nails",
+        "translated_symptom": "Lekukan kecil di kuku",
+        "description": "Lubang kecil atau lekukan pada kuku, mungkin merupakan tanda dari trauma pada kuku atau kondisi medis seperti psoriasis atau defisiensi nutrisi.",
+        "image_url": "https://images-prod.healthline.com/hlcmsresource/images/topic_centers/642x361_Slide_2_Nail_Pitting.jpg",
+        "category": "Kulit"
+    },
+    {
+        "symptom": "inflammatory_nails",
+        "translated_symptom": "Kuku meradang",
+        "description": "Kuku yang meradang atau bengkak, bisa disebabkan oleh infeksi jamur atau kondisi inflamasi lainnya.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_1z5ypY1ShfcBXaVASJjHrkBSuAAVB9Qszg&s",
+        "category": "Kulit"
+    },
+    {
+        "symptom": "blister",
+        "translated_symptom": "Lepuh",
+        "description": "Gelembung yang terisi cairan di kulit, bisa disebabkan oleh gesekan, terbakar, atau infeksi.",
+        "image_url": "https://cdn-prod.medicalnewstoday.com/content/images/articles/264/264783/a-blister-on-a-finger.jpg",
+        "category": "Kulit"
+    },
+    {
+        "symptom": "red_sore_around_nose",
+        "translated_symptom": "Luka merah di sekitar hidung",
+        "description": "Luka merah di sekitar hidung, bisa merupakan tanda dari infeksi kulit seperti impetigo atau peradangan karena alergi.",
+        "image_url": "https://preview.redd.it/skin-concern-sometimes-get-really-red-sore-nostril-possibly-v0-96ov48hffeo81.jpg?width=1080&crop=smart&auto=webp&s=dcdb8677b2360167519e6e11ecc6db3992a7cdb9",
+        "category": "Kepala dan Wajah"
+    },
+    {
+        "symptom": "yellow_crust_ooze",
+        "translated_symptom": "Kerak kuning yang mengeluarkan cairan",
+        "description": "Krusta kuning yang mengalir keluar dari luka atau lesi pada kulit, seringkali terjadi pada infeksi bakteri atau kulit yang terluka.",
+        "image_url": "https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325821/a-yellow-scab-on-the-a-persons-cheek-image-credit-niels-olson-2008.jpg",
+        "category": "Kulit"
+    }
+]

@@ -3,18 +3,51 @@ from flask import Flask, request, jsonify
 import json
 from tensorflow.keras.models import load_model
 import numpy as np
+from firebase_admin import credentials, firestore, initialize_app
 
 # Initialize the Flask application
 app = Flask(__name__)
+
+# Initialize Firestore DB
+cred = credentials.Certificate('credentials.json')
+default_app = initialize_app(cred)
+db = firestore.client()
+diseases_ref = db.collection('diseases').document()
+symptoms_ref = db.collection('symptoms').document()
 
 # Load the model
 model = load_model('model/model.h5')
 
 # Load the data
 list_diseases = json.load(open('data/list_diseases.json'))
-db_diseases = json.load(open('data/db_diseases.json'))
-symptoms = json.load(open('data/list_symptoms.json'))
+list_symptoms = json.load(open('data/list_symptoms.json'))
 
+# Get Firestore Disease Collection
+get_diseases = db.collection('diseases').stream()
+db_diseases = []
+for doc in get_diseases:
+  db_diseases.append(doc.to_dict())
+  
+# Get Firestore Symptoms Collection
+get_symptoms = db.collection('symptoms').stream()
+db_symptoms = []
+for doc in get_symptoms:
+  db_symptoms.append(doc.to_dict())
+
+
+# Populate Firestore Disease Collection
+# db_diseases = json.load(open('data/db_diseases.json'))
+# batch = db.batch()
+# for i in range(len(db_diseases)):
+#   batch.set(diseases_ref.document(), db_diseases[i])
+# batch.commit()
+
+# Populate Firestore Symptoms Collection
+# db_symptoms = json.load(open('data/db_symptoms.json'))
+# batch = db.batch()
+# for i in range(len(db_symptoms)):
+#   batch.set(symptoms_ref.document(), db_symptoms[i])
+# batch.commit()
 
 @app.route("/")
 def get_index_handler():
@@ -23,6 +56,24 @@ def get_index_handler():
         "code": 200,
         "message": "Successfully connected to the API",
     }), 200
+  
+@app.route("/diseases", methods=["GET"])
+def get_diseases_handler():
+  return jsonify({
+    "status": "success",
+    "code": 200,
+    "message": "Diseases retrieved successfully",
+    "diseases": db_diseases
+  }), 200
+ 
+@app.route("/symptoms", methods=["GET"])
+def get_symptoms_handler():
+  return jsonify({
+    "status": "success",
+    "code": 200,
+    "message": "Symptoms retrieved successfully",
+    "symptoms": db_symptoms
+  }), 200 
 
 @app.route("/predict", methods=["POST"])
 def post_predict_handler():
