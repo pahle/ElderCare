@@ -1,0 +1,331 @@
+[
+  {
+    "id": 1,
+    "disease": "Fungal infection",
+    "translated_disease": "Infeksi Jamur",
+    "description": "Infeksi yang disebabkan oleh jamur yang bisa menyerang kulit, kuku, atau bagian tubuh lainnya.",
+    "prevention_tips": "Jaga area yang terinfeksi tetap bersih dan kering. Hindari mengenakan pakaian yang ketat dan basah dalam waktu lama. Gunakan sepatu dan kaus kaki yang kering dan bersih.",
+    "image_url": "https://static.cdntap.com/tap-assets-prod/wp-content/uploads/sites/24/2022/02/Lead-Jamur.jpg"
+  },
+  {
+    "id": 2,
+    "disease": "Allergy",
+    "translated_disease": "Alergi",
+    "description": "Reaksi berlebihan dari sistem kekebalan tubuh terhadap zat tertentu seperti serbuk sari, makanan, atau obat.",
+    "prevention_tips": "Hindari pemicu alergi. Jaga kebersihan rumah dan gunakan penjernih udara jika diperlukan. Perhatikan makanan yang dikonsumsi dan hindari yang memicu alergi.",
+    "image_url": "https://awsimages.detik.net.id/community/media/visual/2023/06/20/adv-prosix.jpeg?w=810"
+  },
+  {
+    "id": 3,
+    "disease": "GERD",
+    "translated_disease": "GERD",
+    "description": "Kondisi di mana asam lambung naik ke esofagus, menyebabkan rasa terbakar di dada.",
+    "prevention_tips": "Hindari makanan berlemak, pedas, dan asam. Makan dalam porsi kecil dan sering. Jangan langsung berbaring setelah makan dan angkat kepala saat tidur.",
+    "image_url": "https://cdn.antaranews.com/cache/1200x800/2022/02/10/Screenshot_2022-02-10-13-55-58-92_copy_1024x683.jpg"
+  },
+  {
+    "id": 4,
+    "disease": "Chronic cholestasis",
+    "translated_disease": "Kolestasis Kronis",
+    "description": "Penyumbatan aliran empedu dari hati yang dapat menyebabkan gatal dan penyakit kuning.",
+    "prevention_tips": "Konsumsi makanan rendah lemak dan hindari alkohol. Perbanyak konsumsi sayur dan buah yang tinggi serat.",
+    "image_url": "https://ygi.or.id/wp-content/uploads/2022/11/Refluks-empedu-Ilustrasi-www.ygi_.or_.id_.jpg"
+  },
+  {
+    "id": 5,
+    "disease": "Drug Reaction",
+    "translated_disease": "Reaksi Obat",
+    "description": "Reaksi negatif terhadap obat tertentu.",
+    "prevention_tips": "Hentikan penggunaan obat yang menyebabkan reaksi. Konsultasikan dengan dokter untuk penggantian obat. Pantau reaksi tubuh terhadap obat baru.",
+    "image_url": "https://awsimages.detik.net.id/community/media/visual/2023/06/20/adv-prosix.jpeg?w=810"
+  },
+  {
+    "id": 6,
+    "disease": "Peptic ulcer disease",
+    "translated_disease": "Radang Tukak Lambung",
+    "description": "Luka yang terbentuk di lapisan lambung atau usus kecil.",
+    "prevention_tips": "Hindari makanan pedas, asam, dan berlemak. Kurangi konsumsi kafein dan alkohol. Makan secara teratur dan hindari stres.",
+    "image_url": "https://asset.kompas.com/crops/w0pSqPD-ie5oby2IYKhBTvSZao0=/87x0:931x563/750x500/data/photo/2021/04/10/607184b711f0a.jpg"
+  },
+  {
+    "id": 7,
+    "disease": "AIDS",
+    "translated_disease": "AIDS",
+    "description": "AIDS (Acquired Immunodeficiency Syndrome) merupakan penyakit yang disebabkan oleh virus HIV yang menyerang sistem kekebalan tubuh.",
+    "prevention_tips": "Ikuti terapi antiretroviral dengan disiplin. Jaga pola makan sehat dan seimbang. Hindari infeksi dengan menjaga kebersihan dan menghindari kontak dengan orang sakit.",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScVG8Fw8LopnY2sAeG004lLjBLQCa_gDRK5A&s"
+  },
+  {
+    "id": 8,
+    "disease": "Diabetes",
+    "translated_disease": "Diabetes",
+    "description": "Penyakit yang menyebabkan kadar gula darah tinggi.",
+    "prevention_tips": "Jaga pola makan sehat dengan mengontrol asupan gula dan karbohidrat. Lakukan olahraga rutin dan pantau kadar gula darah secara teratur.",
+    "image_url": "https://res.cloudinary.com/dk0z4ums3/image/upload/v1596469188/attached_image/diabetes.jpg"
+  },
+  {
+    "id": 9,
+    "disease": "Gastroenteritis",
+    "translated_disease": "Gastroenteritis",
+    "description": "Infeksi saluran pencernaan yang menyebabkan diare, muntah, dan sakit perut.",
+    "prevention_tips": "Minum banyak cairan untuk mencegah dehidrasi. Konsumsi makanan yang mudah dicerna seperti nasi, pisang, dan roti panggang.",
+    "image_url": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2021/06/11062236/gastroenteritis.jpg"
+  },
+  {
+    "id": 10,
+    "disease": "Bronchial Asthma",
+    "translated_disease": "Asma",
+    "description": "Penyakit kronis yang menyebabkan penyempitan saluran pernapasan hingga sesak napas.",
+    "prevention_tips": "Hindari pemicu asma seperti debu, asap rokok, dan alergen. Lakukan olahraga ringan yang sesuai dan gunakan inhaler sesuai anjuran dokter.",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXhDO4NQ5myG44P_iD-kvmVL9WcZ-ba20XTA&s"
+  },
+  {
+    "id": 11,
+    "disease": "Hypertension",
+    "translated_disease": "Hipertensi",
+    "description": "Tekanan darah tinggi yang dapat meningkatkan risiko penyakit jantung.",
+    "prevention_tips": "Kurangi konsumsi garam dan makanan berlemak. Lakukan olahraga rutin, kelola stres, dan hindari merokok serta alkohol.",
+    "image_url": "https://dk4fkkwa4o9l0.cloudfront.net/production/uploads/article/image/578/lupus__1_.jpg"
+  },
+  {
+    "id": 12,
+    "disease": "Migraine",
+    "translated_disease": "Migrain",
+    "description": "Sakit kepala berdenyut yang sering disertai mual dan kepekaan terhadap cahaya.",
+    "prevention_tips": "Hindari pemicu seperti makanan tertentu, stres, dan kurang tidur. Istirahat di ruangan gelap dan tenang saat serangan terjadi.",
+    "image_url": "https://res.cloudinary.com/dk0z4ums3/image/upload/v1642498343/attached_image/penyakit/neurologi/migrain.jpg"
+  },
+  {
+    "id": 13,
+    "disease": "Cervical spondylosis",
+    "translated_disease": "Spondilosis Servikal",
+    "description": "Penyakit degeneratif yang mempengaruhi tulang belakang leher.",
+    "prevention_tips": "Lakukan fisioterapi dan latihan peregangan. Hindari posisi duduk atau berdiri yang terlalu lama tanpa istirahat.",
+    "image_url": "https://www.jamudigital.com/images/news/8%20Kunci%20Penanganan%20Spondilosis%20Servikal-Pengapuran%20Leher.png"
+  },
+  {
+    "id": 14,
+    "disease": "Paralysis (brain hemorrhage)",
+    "translated_disease": "Kelumpuhan (Pendarahan Otak)",
+    "description": "Kehilangan kemampuan bergerak akibat pendarahan di otak.",
+    "prevention_tips": "Lakukan rehabilitasi dan fisioterapi secara rutin. Jaga tekanan darah dan hindari faktor risiko seperti merokok dan konsumsi alkohol berlebih.",
+    "image_url": "https://asset.kompas.com/crops/aRJN6puMikqC96xeimHNpGBqB-M=/0x0:955x637/750x500/data/photo/2021/09/24/614cc7dab443f.jpg"
+  },
+  {
+    "id": 15,
+    "disease": "Jaundice",
+    "translated_disease": "Penyakit Kuning",
+    "description": "Warna kuning pada kulit dan mata akibat peningkatan bilirubin.",
+    "prevention_tips": "Konsumsi makanan sehat dan hindari alkohol. Pantau kondisi hati secara rutin dan lakukan pemeriksaan kesehatan berkala.",
+    "image_url": "https://www.dailysia.com/wp-content/uploads/2021/08/Desain-tanpa-judul-2021-08-10T210008.281.jpg"
+  },
+  {
+    "id": 16,
+    "disease": "Malaria",
+    "translated_disease": "Malaria",
+    "description": "Penyakit menular yang disebabkan oleh parasit Plasmodium melalui gigitan nyamuk.",
+    "prevention_tips": "Gunakan kelambu saat tidur dan hindari tempat yang banyak nyamuk. Konsumsi obat pencegahan malaria jika berada di daerah endemik.",
+    "image_url": "https://awsimages.detik.net.id/community/media/visual/2023/06/20/adv-prosix.jpeg?w=810"
+  },
+
+  {
+    "id": 17,
+    "disease": "Chicken pox",
+    "local_name": "Cacar Air",
+    "description": "Penyakit infeksi virus yang menyebabkan ruam gatal.",
+    "treatment": "Istirahat dan hindari menggaruk ruam. Gunakan losion kalamin untuk mengurangi gatal dan jaga kebersihan kulit.",
+    "image_url": "https://res.cloudinary.com/dk0z4ums3/image/upload/v1697454346/attached_image/6-gejala-cacar-air-yang-perlu-diketahui.jpg"
+  },
+  {
+    "id": 18,
+    "disease": "Dengue",
+    "local_name": "Demam Berdarah",
+    "description": "Penyakit yang disebabkan oleh virus dengue dan ditularkan oleh nyamuk.",
+    "treatment": "Istirahat yang cukup dan minum banyak cairan. Hindari gigitan nyamuk dengan menggunakan kelambu dan obat anti-nyamuk.",
+    "image_url": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2021/06/31071544/Kategori-Malaria.jpg"
+  },
+  {
+    "id": 19,
+    "disease": "Typhoid",
+    "local_name": "Tifus",
+    "description": "Infeksi bakteri yang menyebabkan demam tinggi dan gangguan pencernaan.",
+    "treatment": "Istirahat yang cukup dan minum banyak cairan. Jaga kebersihan makanan dan lingkungan.",
+    "image_url": "https://www.apotek-k24.com/images/post/16777494720230722013305yunita.isnagejala%20tipes%20pada%20orang%20dewasa.jpg.webp"
+  },
+  {
+    "id": 20,
+    "disease": "Hepatitis A",
+    "local_name": "Hepatitis A",
+    "description": "Infeksi hati yang disebabkan oleh virus hepatitis A.",
+    "treatment": "Istirahat yang cukup dan konsumsi makanan sehat. Hindari alkohol dan makanan berlemak.",
+    "image_url": "https://www.suarasurabaya.net/wp-content/uploads/2020/02/14a520e54c0089c67ae33e10c6f352cf.jpg"
+  },
+  {
+    "id": 21,
+    "disease": "Hepatitis B",
+    "local_name": "Hepatitis B",
+    "description": "Infeksi hati yang disebabkan oleh virus hepatitis B.",
+    "treatment": "Ikuti anjuran dokter dan lakukan pemeriksaan rutin. Hindari alkohol dan makanan berlemak.",
+    "image_url": "https://img-cdn.medkomtek.com/GNPKwyRpAcQ-VCavt1On1AAexDc=/0x0/smart/filters:quality(100):format(webp)/article/gVfer49q3jR4Rd7j9ldsh/original/093318800_1570449277-Bisakah-Penyakit-Hepatitis-B-Disembuhkan-By-Kateryna-Kon-Shutterstock.jpg"
+  },
+  {
+    "id": 22,
+    "disease": "Hepatitis C",
+    "local_name": "Hepatitis C",
+    "description": "Infeksi hati yang disebabkan oleh virus hepatitis C.",
+    "treatment": "Ikuti anjuran dokter dan lakukan pemeriksaan rutin. Hindari alkohol dan makanan berlemak.",
+    "image_url": "https://images.everydayhealth.com/images/digestive-health/hepatitis-c/everything-you-need-to-know-about-hepatitis-c-722x406.jpg?sfvrsn=8d66f71f_1"
+  },
+  {
+    "id": 23,
+    "disease": "Hepatitis D",
+    "local_name": "Hepatitis D",
+    "description": "Infeksi hati yang disebabkan oleh virus hepatitis D.",
+    "treatment": "Ikuti anjuran dokter dan lakukan pemeriksaan rutin. Hindari alkohol dan makanan berlemak.",
+    "image_url": "https://doktersehat.com/wp-content/uploads/2019/07/hepatitis-d-doktersehat.jpeg"
+  },
+  {
+    "id": 24,
+    "disease": "Hepatitis E",
+    "local_name": "Hepatitis E",
+    "description": "Infeksi hati yang disebabkan oleh virus hepatitis E.",
+    "treatment": "Istirahat yang cukup dan konsumsi makanan sehat. Jaga kebersihan diri dan lingkungan.",
+    "image_url": "https://cdnrmi-19948.kxcdn.com/sites/default/files/Disease-2020-06/bigstock-Hepatitis-E-Viral-Infection-247374850-e1568915255101.jpg"
+  },
+  {
+    "id": 25,
+    "disease": "Alcoholic hepatitis",
+    "local_name": "Hepatitis Alkoholik",
+    "description": "Peradangan hati akibat konsumsi alkohol berlebihan.",
+    "treatment": "Hentikan konsumsi alkohol. Konsumsi makanan sehat dan lakukan pemeriksaan rutin.",
+    "image_url": "https://o-cdn-cas.sirclocdn.com/parenting/images/hepatitis_alkoholik_3.width-800.format-webp.webp"
+  },
+  {
+    "id": 26,
+    "disease": "Tuberculosis",
+    "local_name": "Tuberkulosis",
+    "description": "Infeksi bakteri yang menyerang paru-paru.",
+    "treatment": "Ikuti pengobatan sesuai anjuran dokter dan hindari penyebaran dengan menjaga kebersihan dan menggunakan masker.",
+    "image_url": "https://dk4fkkwa4o9l0.cloudfront.net/production/uploads/article/image/1096/82065-news-promotif-dan-prevent.png"
+  },
+  {
+    "id": 27,
+    "disease": "Common Cold",
+    "local_name": "Flu Biasa",
+    "description": "Infeksi virus yang menyebabkan batuk, bersin, dan hidung tersumbat.",
+    "treatment": "Istirahat yang cukup, minum banyak cairan, dan jaga kebersihan diri.",
+    "image_url": "https://res.cloudinary.com/dk0z4ums3/image/upload/v1625544954/attached_image/flu.jpg"
+  },
+  {
+    "id": 28,
+    "disease": "Pneumonia",
+    "local_name": "Pneumonia",
+    "description": "Infeksi paru-paru yang menyebabkan peradangan.",
+    "treatment": "Istirahat yang cukup, minum banyak cairan, dan ikuti pengobatan sesuai anjuran dokter.",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGwOFoBl-ZrHgk76DfiOi8Ud-p2aqo-NEKSA&s"
+  },
+  {
+    "id": 29,
+    "disease": "Dimorphic hemmorhoids(piles)",
+    "local_name": "Wasir (Ambeien)",
+    "description": "Pembengkakan pembuluh darah di daerah anus.",
+    "treatment": "Konsumsi makanan tinggi serat, hindari duduk terlalu lama, dan jaga kebersihan area tersebut.",
+    "image_url": "https://res.cloudinary.com/dk0z4ums3/image/upload/v1617901778/attached_image/wasir-hemoroid.jpg"
+  },
+  {
+    "id": 30,
+    "disease": "Heart attack",
+    "local_name": "Serangan Jantung",
+    "description": "Terhentinya aliran darah ke jantung.",
+    "treatment": "Segera dapatkan perawatan medis darurat. Jaga pola makan sehat dan lakukan olahraga teratur.",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8pqFs6yYdpcWplWM9kXds4cSMw-gHsCrMTQ&s"
+  },
+  {
+    "id": 31,
+    "disease": "Varicose veins",
+    "local_name": "Varises",
+    "description": "Pembuluh darah yang membesar dan berliku-liku di kaki.",
+    "treatment": "Gunakan stoking kompresi, hindari berdiri atau         duduk terlalu lama, dan lakukan olahraga ringan.",
+    "image_url": "https://novusspinecenter.com/wp-content/uploads/2021/03/varicose-vein-blog_1200x800-800x533.jpg"
+  },
+  {
+    "id": 32,
+    "disease": "Hypothyroidism",
+    "local_name": "Hipotiroidisme",
+    "description": "Kelenjar tiroid yang kurang aktif.",
+    "treatment": "Ikuti pengobatan sesuai anjuran dokter. Jaga pola makan sehat dan hindari makanan yang dapat memicu gejala.",
+    "image_url": "https://www.verywellhealth.com/thmb/rEVeZ10QPtb4FK6x_Qmps5cdVwA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1620657293-a3b6bbaf951243b989107d6caa63ace4.jpg"
+  },
+  {
+    "id": 33,
+    "disease": "Hyperthyroidism",
+    "local_name": "Hipertiroidisme",
+    "description": "Kelenjar tiroid yang terlalu aktif.",
+    "treatment": "Ikuti pengobatan sesuai anjuran dokter. Jaga pola makan seimbang dan hindari konsumsi kafein yang berlebihan.",
+    "image_url": "https://www.agapefhc.com/wp-content/uploads/2021/01/hyperthyroidism.jpg"
+  },
+  {
+    "id": 34,
+    "disease": "Hypoglycemia",
+    "local_name": "Hipoglikemia",
+    "description": "Kadar gula darah yang terlalu rendah.",
+    "treatment": "Makan atau minum makanan tinggi gula segera saat gejala muncul. Jaga pola makan teratur dengan mengonsumsi makanan yang seimbang dan bergizi.",
+    "image_url": "https://type1better.com/wp-content/uploads/2022/11/Bannieres-de-blog-98.png"
+  },
+  {
+    "id": 35,
+    "disease": "Osteoarthritis",
+    "local_name": "Osteoartritis",
+    "description": "Penyakit sendi degeneratif.",
+    "treatment": "Lakukan latihan fisik ringan seperti berjalan atau berenang untuk menjaga mobilitas sendi. Jaga berat badan ideal untuk mengurangi tekanan pada sendi.",
+    "image_url": "https://patella.id/wp-content/uploads/2021/09/gejala-osteoartritis-lutut.jpg"
+  },
+  {
+    "id": 36,
+    "disease": "Arthritis",
+    "local_name": "Artritis",
+    "description": "Peradangan pada sendi.",
+    "treatment": "Lakukan latihan fisik ringan dan rutin. Jaga pola makan sehat dan hindari makanan yang dapat memicu peradangan.",
+    "image_url": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2021/06/28031633/Arthritis.jpg"
+  },
+  {
+    "id": 37,
+    "disease": "Paroxysmal Positional Vertigo",
+    "local_name": "Vertigo Posisi Paroksismal",
+    "description": "Rasa pusing akibat perubahan posisi kepala.",
+    "treatment": "Hindari gerakan kepala tiba-tiba dan ubah posisi dengan perlahan. Lakukan latihan reposisi kanal seperti manuver Epley.",
+    "image_url": "https://medicastore.com/images/penyakit/fNgWk_Benign-Paroxysmal-Positional-Vertigo-(BPPV).jpg"
+  },
+  {
+    "id": 38,
+    "disease": "Acne",
+    "local_name": "Jerawat",
+    "description": "Penyumbatan pori-pori kulit yang menyebabkan peradangan.",
+    "treatment": "Jaga kebersihan kulit dengan mencuci muka secara teratur. Hindari memencet jerawat dan gunakan produk perawatan kulit yang sesuai.",
+    "image_url": "https://www.health.com/thmb/M97lm60na0ix41eCtfli4D9NefE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Health-GettyImages-1390356588-f5c3a87b335a43238d4ef3eff16aa0fe.jpg"
+  },
+  {
+    "id": 39,
+    "disease": "Urinary tract infection",
+    "local_name": "Infeksi Saluran Kemih",
+    "description": "Infeksi yang terjadi di saluran kemih jalur buang air kecil.",
+    "treatment": "Minum banyak air untuk membantu membersihkan bakteri dari saluran kemih. Jaga kebersihan area genital dan buang air kecil setelah berhubungan seksual.",
+    "image_url": "https://www.homage.com.au/wp-content/uploads/sites/3/2023/04/bigstock-Illustration-Of-Woman-Sufferin-458433193.jpg"
+  },
+  {
+    "id": 40,
+    "disease": "Psoriasis",
+    "local_name": "Psoriasis",
+    "description": "Penyakit kulit yang menyebabkan bercak merah dan bersisik.",
+    "treatment": "Jaga kulit tetap lembap dengan menggunakan pelembap. Hindari pemicu yang dapat memperparah gejala seperti stres dan infeksi.",
+    "image_url": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2022/08/02041036/ini-3-cara-tepat-merawat-kulit-yang-terkena-psoriasis.jpg.webp"
+  },
+  {
+    "id": 41,
+    "disease": "Impetigo",
+    "local_name": "Impetigo",
+    "description": "Infeksi kulit yang sangat menular dan sering menyerang anak-anak.",
+    "treatment": "Jaga kebersihan area yang terinfeksi dengan mencuci menggunakan sabun dan air. Hindari menyentuh atau menggaruk area yang terinfeksi dan jaga agar tetap kering.",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz3SfqRbh3jfaZAY0dIk6YxRoXDA0GgPL9SQ&s"
+  }
+]
