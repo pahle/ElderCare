@@ -87,7 +87,7 @@ def post_predict_handler():
     }), 400
     
   data_to_array = []
-  for symptom in symptoms:
+  for symptom in list_symptoms:
     if symptom in data["data"]:
       data_to_array.append(1)
     else:
@@ -113,7 +113,8 @@ def post_predict_handler():
     "status": "success",
     "code": 200,
     "message": "Prediction successful",
-    "prediction": detail_disease
+    "prediction": detail_disease,
+    "probability": str(int(np.max(prediction * 100))) + "%"
   }), 200
 
 if __name__ == "__main__":
