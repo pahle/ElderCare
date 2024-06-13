@@ -8,12 +8,12 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the model
-model = load_model('model.h5')
+model = load_model('model/model.h5')
 
 # Load the data
-list_diseases = json.load(open('list_diseases.json'))
-db_diseases = json.load(open('db_diseases.json'))
-symptoms = json.load(open('list_symptoms.json'))
+list_diseases = json.load(open('data/list_diseases.json'))
+db_diseases = json.load(open('data/db_diseases.json'))
+symptoms = json.load(open('data/list_symptoms.json'))
 
 
 @app.route("/")
