@@ -25,7 +25,7 @@ if cred_response.status_code != 200:
 cred_data = cred_response.json()
 
 # Initialize Firestore DB
-cred = credentials.Certificate('credentials.json')
+cred = credentials.Certificate(cred_data)
 default_app = initialize_app(cred)
 db = firestore.client()
 diseases_ref = db.collection('diseases').document()
