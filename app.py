@@ -1,12 +1,28 @@
 import os
+import requests
 from flask import Flask, request, jsonify
 import json
 from tensorflow.keras.models import load_model
 import numpy as np
 from firebase_admin import credentials, firestore, initialize_app
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Initialize the Flask application
 app = Flask(__name__)
+
+# Fetch the credentials from the URL
+cred_url = os.getenv('FIREBASE_CRED_URL')
+if not cred_url:
+    raise Exception('FIREBASE_CRED_URL environment variable not set')
+
+# Fetch the credentials from the URL
+cred_response = requests.get(cred_url)
+if cred_response.status_code != 200:
+    raise Exception('Failed to fetch Firebase credentials')
+
+cred_data = cred_response.json()
 
 # Initialize Firestore DB
 cred = credentials.Certificate('credentials.json')
