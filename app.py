@@ -50,7 +50,6 @@ db_symptoms = []
 for doc in get_symptoms:
   db_symptoms.append(doc.to_dict())
 
-
 # Populate Firestore Disease Collection
 # db_diseases = json.load(open('data/db_diseases.json'))
 # batch = db.batch()
@@ -89,13 +88,38 @@ def get_symptoms_handler():
     "code": 200,
     "message": "Symptoms retrieved successfully",
     "symptoms": db_symptoms
-  }), 200 
+  }), 200
+  
+@app.route("/symptoms", methods=["POST"])
+def post_symptoms_category_handler():
+  data = request.json
+  
+  if "category" not in data:
+    return jsonify({
+        "status": "fail",
+        "code": 400,
+        "message": "Category is missing in the request body",
+    }), 400
+  
+  filtered_symptoms = []
+  for category in data["category"]:
+    filtered_symptoms.append({"category": category, "symptoms": []})
+    for doc in db_symptoms:
+      if str(doc["category"]).lower() == str(category).lower():
+        filtered_symptoms[-1]["symptoms"].append(doc)
+    
+  return jsonify({
+    "status": "success",
+    "code": 200,
+    "message": "Symptoms retrieved successfully",
+    "categories": filtered_symptoms
+  }), 200  
 
 @app.route("/predict", methods=["POST"])
 def post_predict_handler():
   data = request.json
     
-  if "data" not in data:
+  if "symptoms" not in data:
     return jsonify({
         "status": "fail",
         "code": 400,
@@ -104,7 +128,7 @@ def post_predict_handler():
     
   data_to_array = []
   for symptom in list_symptoms:
-    if symptom in data["data"]:
+    if symptom in data["symptoms"]:
       data_to_array.append(1)
     else:
       data_to_array.append(0)
