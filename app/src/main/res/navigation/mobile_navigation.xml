@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_health">
+
+    <fragment
+        android:id="@+id/navigation_health"
+        android:name="com.example.capstoneproject.ui.health.HealthFragment"
+        android:label="@string/nav_health"
+        tools:layout="@layout/fragment_container" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_dashboard"
+            app:destination="@id/navigation_profile" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_notifications"
+            app:destination="@id/navigation_article" />
+        <action
+            android:id="@+id/action_navigation_health_to_navigation_healthsec"
+            app:destination="@id/navigation_healthsec" />
+        <action
+            android:id="@+id/action_navigation_health_self"
+            app:destination="@id/navigation_health" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.capstoneproject.ui.user.ProfileFragment"
+        android:label="@string/nav_profil"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_navigation_dashboard_to_navigation_home"
+            app:destination="@id/navigation_health" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_navigation_notifications"
+            app:destination="@id/navigation_article" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_healthsec"
+        android:name="com.example.capstoneproject.ui.health.HealthFragmentSec"
+        android:label="@string/nav_profil"
+        tools:layout="@layout/fragment_health_sec" >
+        <action
+            android:id="@+id/action_navigation_healthsec_to_navigation_healththird"
+            app:destination="@id/navigation_healththird" />
+        <action
+            android:id="@+id/action_navigation_healthsec_to_navigation_healthresult"
+            app:destination="@id/navigation_healthresult" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_healththird"
+        android:name="com.example.capstoneproject.ui.health.HealthFragmentThird"
+        android:label="@string/nav_profil"
+        tools:layout="@layout/fragment_health_third" >
+        <action
+            android:id="@+id/action_navigation_healththird_to_navigation_healthsec"
+            app:destination="@id/navigation_healthsec" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_healthresult"
+        android:name="com.example.capstoneproject.ui.health.HealthResultFragment"
+        android:label="@string/nav_profil"
+        tools:layout="@layout/fragment_health_result" >
+        <action
+            android:id="@+id/action_navigation_healthresult_to_navigation_health"
+            app:destination="@id/navigation_health" />
+        <action
+            android:id="@+id/action_navigation_healthresult_to_navigation_healththird"
+            app:destination="@id/navigation_healththird" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_article"
+        android:name="com.example.capstoneproject.ui.article.ArticleFragment"
+        android:label="@string/nav_article"
+        tools:layout="@layout/fragment_article" >
+        <action
+            android:id="@+id/action_navigation_notifications_to_navigation_home"
+            app:destination="@id/navigation_health" />
+        <action
+            android:id="@+id/action_navigation_notifications_to_navigation_dashboard"
+            app:destination="@id/navigation_profile" />
+    </fragment>
+</navigation>

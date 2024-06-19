@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">ElderCare</string>
+    <string name="btn_next">Selanjutnya</string>
+    <string name="btn_back">Kembali</string>
+    <string name="btn_done">Selesai</string>
+    <string name="regist_name">Hai, silakan isi nama lengkapmu!</string>
+    <string name="regist_nickname">Nama panggilan</string>
+    <string name="regist_date">Tanggal lahir</string>
+    <string name="regist_gender">Jenis kelamin</string>
+    <string name="regist_nomor">Nomor WhatsApp</string>
+    <string name="regist">Ketik disini</string>
+    <string name="regist_title">Lengkapi data informasi diri</string>
+    <string name="see_more">Selengkapnya</string>
+    <string name="profile">Informasi Profile</string>
+    <string name="nav_article">Berita</string>
+    <string name="nav_health">Konsul</string>
+    <string name="nav_profil">Profil</string>
+    <string name="homepage">Hai, %1$s!</string>
+    <string name="health_title">Gejala apa yang kamu rasakan di, %1$s!</string>
+    <string name="homepage_one">Di bagian apa kamu merasakan sakit?</string>
+    <string name="homepage_two">Gejala apa yang kamu rasakan di</string>
+    <string name="result_one">Treatment Yang Diperlukan</string>
+    <string name="result_two">Kemungkinan Penyakit:</string>
+    <string name="warning">Peringatan!</string>
+    <string name="done">Selesai</string>
+    <string name="result_title">Hasil Konsultasi</string>
+    <string name="history">Cek konsul terdahulu</string>
+    <string name="profile_name">Nama Lengkap</string>
+    <string name="logout">Keluar Dari Akun</string>
+    <string name="error_empty">Mohon untuk mengisi data ini</string>
+    <string name="error_number">Pastikan nomor anda sudah benar</string>
+    <string name="exit">Apakah kamu yakin ingin keluar dari aplikasi?</string>
+    <string name="result_warning">Hanya profesional medis yang berlisensi yang dapat membuat diagnosis akhir, aplikasi ini hanya dirancang untuk membantu Anda dengan informasi medis dan gejala!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="health1">Kepala dan Wajah</string>
+    <string name="health2">Perut dan Dada</string>
+    <string name="health3">Leher dan Punggung</string>
+    <string name="health4">Tangan dan Kaki</string>
+    <string name="health5">Umum</string>
+    <string name="health6">Lainnya</string>
+
+
+    <string-array name="gender">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+</resources>
