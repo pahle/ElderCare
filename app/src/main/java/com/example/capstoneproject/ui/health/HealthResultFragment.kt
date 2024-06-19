@@ -60,6 +60,7 @@ class HealthResultFragment : Fragment() {
             arrayList.add(data?.get(0).toString())
             arrayList.add(data?.get(3).toString())
             arrayList.add(data?.get(1).toString())
+            mBundle.putStringArrayList(DATA, arrayList)
             findNavController().navigate(R.id.action_navigation_healthresult_to_navigation_healththird, mBundle)
         }
         binding.btnDone.setOnClickListener {
