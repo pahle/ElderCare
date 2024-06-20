@@ -2,11 +2,11 @@
 # ElderCare Android
 
 ## Overview
-This Android application is designed to provide users with access to articles, health information, and personal profiles.
+This Android application is designed to provide users with access to articles, diagnose, and personal profiles.
 
 ## Features
 - **Articles**: Users can read various articles.
-- **Health**: Users can access health-related information.
+- **Diagnose**: Users can predict diseases based on a list of symptoms selected
 - **Profile**: Users can view and edit their profiles.
 
 ## Installation
@@ -20,4 +20,4 @@ git clone -b android https://github.com/pahle/ElderCare.git
 4. Run the application on an emulator or physical device.
 
 ## Usage
-After launching the application, use the bottom navigation to switch between the Articles, Health, and Profile sections.
+After launching the application, use the bottom navigation to switch between the Articles, Diagnose, and Profile sections.
