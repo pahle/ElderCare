@@ -28,8 +28,6 @@ cred_data = cred_response.json()
 cred = credentials.Certificate(cred_data)
 default_app = initialize_app(cred)
 db = firestore.client()
-diseases_ref = db.collection('diseases').document()
-symptoms_ref = db.collection('symptoms').document()
 
 # Load the model
 model = load_model('model/model.h5')
@@ -50,20 +48,6 @@ db_symptoms = []
 for doc in get_symptoms:
   db_symptoms.append(doc.to_dict())
 
-# Populate Firestore Disease Collection
-# db_diseases = json.load(open('data/db_diseases.json'))
-# batch = db.batch()
-# for i in range(len(db_diseases)):
-#   batch.set(diseases_ref.document(), db_diseases[i])
-# batch.commit()
-
-# Populate Firestore Symptoms Collection
-# db_symptoms = json.load(open('data/db_symptoms.json'))
-# batch = db.batch()
-# for i in range(len(db_symptoms)):
-#   batch.set(symptoms_ref.document(), db_symptoms[i])
-# batch.commit()
-
 @app.route("/")
 def get_index_handler():
   return jsonify({
@@ -83,6 +67,20 @@ def get_diseases_handler():
  
 @app.route("/symptoms", methods=["GET"])
 def get_symptoms_handler():
+  
+  if request.args.get("category"):
+    category = request.args.get("category")
+    filtered_symptoms = []
+    for doc in db_symptoms:
+      if str(doc["category"]).lower() == str(category).lower():
+        filtered_symptoms.append(doc)
+    return jsonify({
+      "status": "success",
+      "code": 200,
+      "message": "Symptoms retrieved successfully",
+      "symptoms": filtered_symptoms
+    }), 200
+  
   return jsonify({
     "status": "success",
     "code": 200,
